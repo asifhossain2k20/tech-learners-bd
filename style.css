@@ -1,6 +1,14 @@
-.carousel-my-class img{
-    height: 580px;
+.nav-bar a{
+    font-weight: bold;
 }
+.carousel-text-bg{
+    background: rgba(0, 0, 0, 0.5);
+}
+.carousel-my-class img{
+    height: 520px;
+    border-radius: 10px;
+}
+
 .registration-section{
     height: 300px;
 }
@@ -14,5 +22,11 @@ footer .icons i{
 @media screen and (max-width:992px) {
     .companies{
         display: none;
+    }
+    
+}
+@media screen  and (max-width:576px){
+    .carousel-my-class img{
+        height: 420px;
     }
 }
